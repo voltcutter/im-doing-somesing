@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>I'm doing somesing!</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <button onclick="sound()" id="theButton">I'm doing somesing!</button>
+
+    <script>
+        var theButton = document.getElementById("theButton");
+        var theSound = new Audio("raw.mp3");
+
+        function sound() {
+            theSound.play();
+        }
+    </script>
+</body>
+</html>
